@@ -1,6 +1,6 @@
 import React, {useState, useEffect} from 'react';
 import SearchForm from './SearchForm.js';
-import Drink from './Drink.js';
+import Drink from './Drink/Drink.js';
 import {getRandom} from '../fetch_actions.js';
 import './SearchPanel.css'
 
