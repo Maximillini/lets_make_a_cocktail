@@ -1,5 +1,5 @@
 .search-panel {
-  background-image: linear-gradient(to top, rgba(244,241,222,0.2), rgba(244,241,222,0.9));
+  background-image: linear-gradient(to top, rgba(200,255,222,0.9), rgba(244,241,222,0.8));
   /* border: 1px solid #EEE; */
   border-radius: 8px;
   height: 70vh;

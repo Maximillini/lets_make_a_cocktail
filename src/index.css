@@ -3,9 +3,9 @@ html {
 }
 
 body {
-  background-image: linear-gradient(-55deg, #3D405B, #81b29a, #3D405B);
+  background-image: url('./images/bar_bg2.jpeg');
   background-repeat: no-repeat;
-  background-size: 300%;
+  background-size: 150%;
   box-sizing: border-box;
   min-height: 100%;
   margin: 0;
@@ -14,12 +14,19 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  animation: shift 22s ease-in-out alternate-reverse infinite;
+  animation: shift 120s alternate-reverse infinite;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+@media only screen and (max-width: 760px) {
+  body {
+    background-image: url('./images/bar_bg.jpg');
+    background-size: cover;
+  }
 }
 
 @keyframes shift {
