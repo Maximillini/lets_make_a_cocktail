@@ -1,0 +1,38 @@
+.search-panel {
+  background-image: linear-gradient(to top, rgba(244,241,222,0.2), rgba(244,241,222,0.9));
+  /* border: 1px solid #EEE; */
+  border-radius: 8px;
+  height: 70vh;
+  width: 800px;
+  padding: 20px;
+}
+
+@media only screen and (max-width: 760px) {
+  .search-panel {
+    width: 70%;
+  }
+}
+
+.drink-info {
+  align-items: center;
+  display: flex;
+  flex-flow: column;
+  font-size: 30px;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.drink-info .drink-name {
+  flex: 1 1 100%;
+}
+
+.drink-info img {
+  border-radius: 50%;
+  margin: 20px 0;
+  min-width: 200px;
+  width: 30%;
+}
+
+.drink-info .instructions {
+  font-size: 1rem;
+}
