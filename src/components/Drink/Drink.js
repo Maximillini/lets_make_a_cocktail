@@ -1,6 +1,7 @@
 const Drink = (props) => {
   let ingredients = [];
 
+  // TODO: get measurements for ingredients
   for (const [key, value] of Object.entries(props.drink)) {
     if (key.includes('strIngredient') && !!value) ingredients.push(value);
   }
